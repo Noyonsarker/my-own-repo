@@ -8,8 +8,10 @@ h2 {
   font-size: 40px;
 }
 p {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 100;
+  line-height: 1.3;
+  padding-bottom: 30px;
 }
 
 .flexible-content {
@@ -19,13 +21,11 @@ p {
   padding-left: 100px;
 }
 
-.flexible-content p {
-  font-size: 20px;
-  font-weight: 300;
-  width: 50%;
-}
 .half-width {
   width: 70%;
+}
+.half-width p {
+  width: 50%;
 }
 .half-width img {
   width: 70%;
