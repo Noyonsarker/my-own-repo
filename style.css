@@ -59,6 +59,15 @@ p {
 .my-misson img {
   width: 90px;
 }
+.image-one {
+  background-color: #afeeee;
+}
+.image-two {
+  background-color: #fafad2;
+}
+.image-three {
+  background-color: #ffb6c1;
+}
 .buy-now {
   background-color: gray;
   color: #fff;
