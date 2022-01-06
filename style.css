@@ -1,5 +1,92 @@
-.banner {
-    height: 100px;
-    width: 3px;
-    background-color: red;
+body {
+  margin: 0;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+p {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.flexible-content {
+  display: flex;
+  margin-bottom: 100px;
+  padding-top: 100px;
+  padding-left: 100px;
+}
+
+.flexible-content p {
+  font-size: 20px;
+  font-weight: 300;
+  width: 50%;
+}
+.half-width {
+  width: 70%;
+  padding-left: 2%;
+}
+.half-width img {
+  width: 80%;
+}
+.orange-color {
+  color: orange;
+}
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(black, orange);
+  padding: 10px 50px;
+  border-radius: 5px;
+  font-weight: 700;
+  color: white;
+}
+
+.misson-text {
+  text-align: center;
+}
+.misson-area {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
+.my-misson {
+  width: 200px;
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 20px;
+}
+.my-misson img {
+  width: 90px;
+}
+.buy-now {
+  background-color: gray;
+  color: #fff;
+  text-align: center;
+  padding: 50px;
+  margin: 100px 0;
+}
+.Black {
+  color: black;
+}
+.buy-button {
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: black;
+  color: #fff;
+  border-radius: 5px;
+}
+.footer-text {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.pink-color {
+  color: palevioletred;
+}
+.footer-text h3 {
+  font-size: 30px;
 }
